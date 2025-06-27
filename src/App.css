@@ -1,0 +1,54 @@
+/* Card.css */
+
+.product-list {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 20px;
+}
+
+.car-card {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.car-card:hover {
+  transform: scale(1.03);
+  background-color: #fff;
+}
+
+.car-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.car-info h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.car-info p {
+  font-size: 1rem;
+  color: #555;
+  margin: 4px 0;
+}
+
+.car-info strong {
+  color: #222;
+}
+
+.imageData {
+  display: ;
+  margin-left: auto;
+
+}
