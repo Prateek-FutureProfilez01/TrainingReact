@@ -8,9 +8,11 @@ export default function NavBar(){
             <img className='logo' src={logo} alt="" />
             <ul>
                 <Link to='/'><li>Home</li></Link>
+                <Link to='/Todo'><li>Todo</li></Link>
                 <Link to='/about'><li>About</li></Link>
                 <Link to='/product'><li>Product</li></Link>
                 <Link to='/contact'><li>Contact</li></Link>
+                
             </ul>
             <button>Get Started</button>
         </div>
